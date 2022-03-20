@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        li ul {display: none;
+        }
+
+
+        li:hover{
+            background-color: aqua;
+            color:black
+        }
+        li:hover>ul{display: block;
+        position : relative ;
+        left: 70px;
+        top: -45px;
+        } 
+
+        li{
+            list-style: none;
+            padding: 10px 10px;
+            width : 100px;
+            height : 20px;
+            color:aqua;
+            background-color:black;
+        
+        }
+    </style>
+    
+</head>
+
+<body>
+    <div>
+        <h1>Le pont mirabeau </h1>
+
+        <li> home </li>
+        <li>services
+            <ul>
+                <li>strategy</li>
+                <li>optimization</li>
+            </ul>
+        </li>
+        <li>publications
+                <ul>
+                    <li>Articles</li>
+                    <li>tutorials</li>
+                </ul>
+        </li>
+        <li>Events</li>
+        <li>Contact</li>
+        
+        <footer> rien</footer>
+
+
+
+
+
+    </div>
+</body>
+
+</html>
